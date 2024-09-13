@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+      "target": "ES6",                       // Целевая версия JavaScript
+      "module": "commonjs",                  // Использовать CommonJS для модулей
+      "outDir": "./dist",                    // Директория для скомпилированных файлов
+      "rootDir": "./src",                    // Исходные файлы
+      "strict": true,                        // Включить строгий режим
+      "esModuleInterop": true                // Совместимость с ES модулями
+    },
+    "include": ["src/**/*"],                 // Включить все файлы в папке src
+    "exclude": ["node_modules"]              // Исключить node_modules
+  }
+  
